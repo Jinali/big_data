@@ -1,5 +1,5 @@
 Exercise 1: Fixed-Length WordCount
-For this exercise, you I have counted words with 5 characters
+For this exercise, I have counted words with 5 characters
 Output: Key is the word, and value is the number of times the word appears in the input.
 
 Exercise 2: InitialCount
