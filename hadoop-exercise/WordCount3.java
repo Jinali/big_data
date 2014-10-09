@@ -1,3 +1,4 @@
+/* This program needs 3 arguments while running it on local machine, input_path, temp_path, output_path */
 import java.io.IOException;
 import java.util.*;
 import java.util.HashMap;
@@ -13,7 +14,6 @@ import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.SequenceFileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.input.SequenceFileInputFormat;
 import org.apache.hadoop.mapreduce.lib.map.InverseMapper;
-import org.apache.hadoop.io.compress.GzipCodec;
 import org.apache.hadoop.io.IntWritable.Comparator;
 import org.apache.hadoop.io.WritableComparable;
 import org.apache.hadoop.io.WritableComparator;
